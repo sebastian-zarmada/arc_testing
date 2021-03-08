@@ -4,12 +4,14 @@ data:
   username: c3FsYWRtaW4=
 kind: Secret
 metadata:
+  namespace: arcdatactrl
   name: sql1-login-secret
 type: Opaque
 ---
 apiVersion: sql.arcdata.microsoft.com/v1alpha1
 kind: sqlmanagedinstance
 metadata:
+  namespace: arcdatactrl
   name: sql1
 spec:
   limits:
