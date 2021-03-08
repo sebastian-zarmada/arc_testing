@@ -18,7 +18,7 @@ spec:
     memory: 4Gi
     vcores: "4"
   requests:
-    memory: 2Gi
+    memory: 4Gi
     vcores: "1"
   service:
     type: LoadBalancer
