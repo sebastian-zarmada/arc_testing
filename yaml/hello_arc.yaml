@@ -4,7 +4,7 @@ data:
   username: c3FsYWRtaW4=
 kind: Secret
 metadata:
-  namespace: arcdatactrl
+  namespace: arc
   name: sql1-login-secret
 type: Opaque
 ---
@@ -18,7 +18,7 @@ spec:
     memory: 4Gi
     vcores: "4"
   requests:
-    memory: 4Gi
+    memory: 2Gi
     vcores: "1"
   service:
     type: LoadBalancer
