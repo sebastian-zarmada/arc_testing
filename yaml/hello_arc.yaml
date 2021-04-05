@@ -11,7 +11,7 @@ type: Opaque
 apiVersion: sql.arcdata.microsoft.com/v1alpha1
 kind: sqlmanagedinstance
 metadata:
-  namespace: arcdatactrl
+  namespace: arc
   name: sql1
 spec:
   limits:
