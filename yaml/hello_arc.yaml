@@ -12,7 +12,7 @@ apiVersion: sql.arcdata.microsoft.com/v1alpha1
 kind: sqlmanagedinstance
 metadata:
   namespace: arc
-  name: sql1
+  name: sql1-policy
 spec:
   limits:
     memory: 4Gi
