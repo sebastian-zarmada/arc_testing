@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  password: QXJjUGFzc3dvcmQxMjMhIQ==
+  username: c3FsYWRtaW4=
+kind: Secret
+metadata:
+  namespace: arc
+  name: sql1-login-secret
+type: Opaque
